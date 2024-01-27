@@ -1,0 +1,77 @@
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14.5px);
+  -webkit-backdrop-filter: blur(14.5px);
+  border: 1px solid rgba(0, 0, 0, 0.56);
+}
+
+.dark {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Arvo", cursive;
+}
+
+h6 {
+  color: rgb(128, 128, 228);
+}
+
+p {
+  color: rgba(255, 255, 255, 0.151);
+}
+
+.butt {
+  outline: none;
+  border: 5px solid #416940;
+  font-size: 25px;
+  /* font-family: 'Arvo', cursive; */
+  line-height: 2;
+  font-weight: 900;
+  color: #da0404;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  background-image: url(Neutral\ Emoji\ transparent.png);
+  background-size: 140px;
+}
+
+.em {
+  background-image: url(Talk\ Emoji.jpg);
+  background-size: contain;
+  text-shadow: 5px 0 black;
+  border: 5px solid red;
+  color: white;
+}
+
+#modeToggle {
+ 
+  border-radius: 6px;
+}
+
+/*Extras*/
+/* .container{
+    /* background-color: purple;
+    display: grid;
+    grid-template-columns: repeat(8, 155px);
+    grid-template-rows: repeat(8, 150px);
+    gap: 10px;
+}
+
+.box1{
+    background-color: black;
+}
+.box{
+    background-color: wheat;
+} */
